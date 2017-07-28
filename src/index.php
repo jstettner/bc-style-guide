@@ -8,6 +8,8 @@
 
   <div class="container guide-items flex-column">
     <?php include '../components/buttons.php';?>
+    <hr>
+    <?php include '../components/colors.php';?>
   </div>
 
   <script src="./js/plugins/jquery-3.2.1.min.js"></script>

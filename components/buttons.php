@@ -1,4 +1,4 @@
-<div id="buttons" class="prm pll">
+<div id="buttons" class="prm pll catagory">
   <h3> Buttons </h3>
   <div class="flex-row flex-wrap">
     <button type="button" name="button" class="button-primary type-med mh-10 mv-10"> Primary </button>
