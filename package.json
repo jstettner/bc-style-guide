@@ -1,0 +1,15 @@
+{
+  "name": "style-guide",
+  "version": "1.0.0",
+  "description": "style guide",
+  "main": "index.js",
+  "author": "jack stettner",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8"
+  }
+}

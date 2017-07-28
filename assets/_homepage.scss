@@ -1,0 +1,42 @@
+body {
+  background-color: $grey;
+
+  .bc-pageheader {
+      padding: 2rem 15px;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      background-color: $border-grey;
+
+      @media (min-width: 576px) {
+          padding-top: 4rem;
+          padding-bottom: 4rem;
+          margin-bottom: 3rem;
+          text-align: left;
+      }
+  }
+
+
+
+  #style-header {
+    font-family: Gillsans;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    color: $black;
+    font-size: 60;
+    text-align: center;
+    margin-top: 10px;
+    .bc {
+      color: $iris;
+    }
+  }
+
+  button {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #buttons .button-info {
+    color: black;
+  }
+}
