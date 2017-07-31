@@ -10155,13 +10155,13 @@ body {
     margin-bottom: 1.5rem;
     text-decoration: none;
     text-align: center;
-    background-image: linear-gradient(to bottom, #DDD 0, #F5F7F9 100%); }
+    background-color: #DDD; }
     body .bc-pageheader a {
       text-decoration: none !important; }
     @media (min-width: 576px) {
       body .bc-pageheader {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
         margin-bottom: 3rem;
         text-align: left; } }
   body hr {
