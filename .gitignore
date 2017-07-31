@@ -1,8 +1,8 @@
 .git
 
 # rebuilds
-src/css
-src/fonts
+dist/css
+dist/fonts
 
 node_modules
 

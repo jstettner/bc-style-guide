@@ -2,17 +2,36 @@ body {
   background-color: $grey;
 
   .bc-pageheader {
-      padding: 2rem 15px;
-      margin-bottom: 1.5rem;
-      text-align: center;
-      background-color: $border-grey;
+    a {
+      text-decoration: none !important;
+    }
+    padding: 2rem 15px;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(to bottom,$border-grey 0,$grey 100%);
 
-      @media (min-width: 576px) {
-          padding-top: 4rem;
-          padding-bottom: 4rem;
-          margin-bottom: 3rem;
-          text-align: left;
-      }
+    @media (min-width: 576px) {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      margin-bottom: 3rem;
+      text-align: left;
+    }
+  }
+
+  hr {
+    margin: 18px 0;
+    border-top: 1px solid $border-grey;
+  }
+
+  a {
+    color: $mid-grey;
+    padding-top: 23px;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $black;
   }
 
   .catagory {
@@ -38,6 +57,8 @@ body {
     padding-right: 10px;
   }
 
+  // page specific
+
   #buttons .button-info {
     color: black;
   }
@@ -58,6 +79,7 @@ body {
       justify-content: center;
       padding-top: 5px;
       padding-bottom: 5px;
+      cursor: default;
     }
     table {
       width: 100%;
@@ -69,8 +91,14 @@ body {
     }
   }
 
-  hr {
-    margin: 18px 0;
-    border-top: 1px solid $border-grey;
+  #fonts {
+    .mons {
+      font-family: Montserrat;
+      font-size: 15;
+    }
+    .gils {
+      font-family: Gillsans;
+      font-size: 15;
+    }
   }
 }
