@@ -38,7 +38,7 @@
         <td class="ti-na"></td>
       </tr>
       <tr>
-        <td>5700</td>
+        <td>700</td>
         <td class="mons em-700">lorem ipsum</td>
         <td class="gils em-700">lorem ipsum</td>
       </tr>

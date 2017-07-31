@@ -11,6 +11,7 @@
         <div class="item">
           <label>Input a</label>
           <input name="new" maxlength="17" required="required"/>
+          <div class="help-block mbn alt-font f-14 hidden-xs"><span>Find the login link in your email, e.g. <i>blockchain.info/wallet/1111-222-333...</i> The series of numbers and dashes at the end of the link is your Wallet ID.</span></div>
         </div>
       </div>
       <div class="group mb-20">
@@ -54,7 +55,30 @@
         <div class="item inline width-100 flex-between"><span class="f-12">Hello World</span><a class="f-12">Make changes</a></div>
       </div>
     </div>
-    <div class="modal-footer pal flex-end flex-center">
+    <div class="modal-body group flex-center">
+      <div class="flex flex-row flex-between width-70">
+        <div class="col-md setting-result">
+          <label class="em-400 type-h5 colon" translate="RECEIVE_BY">Receive by</label><br>
+          <div class="flex-column flex-end display-inline-block mbl"><label class="flex-between flex-center"><input type="checkbox" ng-model="notifications.email" ng-checked="user.isEmailVerified &amp;&amp; notifications.email" ng-change="updateNotificationsType()" ng-disabled="!user.isEmailVerified" class="ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" checked="checked" style=""><span class="mlm" translate="EMAIL" uib-tooltip="Verify your email address to enable notifications" tooltip-enable="!user.isEmailVerified" tooltip-placement="left">Email</span></label><label class="flex-between flex-center"><input type="checkbox" ng-model="notifications.sms" ng-checked="user.isMobileVerified &amp;&amp; notifications.sms" ng-change="updateNotificationsType()" ng-disabled="!user.isMobileVerified" class="ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" checked="checked" style=""><span class="mlm" translate="SMS" uib-tooltip="Verify your mobile number to enable notifications" tooltip-enable="!user.isMobileVerified" tooltip-placement="left">SMS</span></label></div>
+        </div>
+        <div class="flex-column" style="align-items:center;">
+          <a class="uib-dropdown-toggle dropdown-toggle ptn" data-toggle="uib-dropdown" role="button" aria-expanded="false" uib-dropdown-toggle="" aria-haspopup="true"><span translate="EXPLORE">Explore</span><i class="ti-angle-down mlm"></i></a>
+          <ul class="uib-dropdown-menu dropdown-menu" role="menu" style="position:relative;display:block;max-width:300px;top:0px;">
+            <li><a href="" translate="HOME" target="_blank" rel="noopener noreferrer">Home</a></li>
+            <li><a href="/charts" translate="CHARTS" target="_blank" rel="noopener noreferrer">Charts</a></li>
+            <li><a href="/stats" translate="STATS" target="_blank" rel="noopener noreferrer">Stats</a></li>
+            <li><a href="/markets" translate="MARKETS" target="_blank" rel="noopener noreferrer">Markets</a></li>
+            <li><a href="/api" translate="API" target="_blank" rel="noopener noreferrer">API</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn button-default button-short-wide type-h5 pos-rel"><i class="mrs media-middle icon-receive"></i><span class="em-300">Request</span></button><button class="btn button-default button-short type-h5" type="button" uib-tooltip="Copy a receive address to your clipboard." tooltip-append-to-body="true" tooltip-placement="top"><i class="mhs ti-clipboard" style=""></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="flex-center flex-between-mobile mbm"><label class="type-h5 em-400 mbn" translate="REMEMBER_2FA">Option</label><span class="label label-success mlm" style="height: 16px;padding-top:4px;">Enabled</span></div>
+    <h5 class="well type-h5 em-400 hidden-xs" translate="SECURITY_BASIC_EXPLAIN">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+    <div class="flex-end flex-center">
       <button type="button" class="button-muted mrm">Cancel</button>
       <button type="button" class="button-primary">Submit</button>
     </div>
