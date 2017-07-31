@@ -1,7 +1,7 @@
 <?php include '../components/head.php';?>
 <body>
   <div class="bc-pageheader text-center">
-    <a href="#"><h1 id="style-header" class="display-3"> <img src="./imgs/blockchain-blue.svg" style="height:40px;margin-bottom: 10px;"> Style Guide </h1></a>
+    <a href="#"><h1 id="style-header" class="display-3"> <img src="./imgs/blue-logo-blockchain.svg" style="height: 100px;margin-bottom: 15px;"> Style Guide </h1></a>
   </div>
 
   <div class="container guide-items flex-column">

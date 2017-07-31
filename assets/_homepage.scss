@@ -10,11 +10,11 @@ body {
     margin-bottom: 1.5rem;
     text-decoration: none;
     text-align: center;
-    background-image: linear-gradient(to bottom,$border-grey 0,$grey 100%);
+    background-color: $border-grey;
 
     @media (min-width: 576px) {
-      padding-top: 4rem;
-      padding-bottom: 4rem;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
       margin-bottom: 3rem;
       text-align: left;
     }
