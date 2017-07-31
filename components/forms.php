@@ -1,6 +1,6 @@
-<div id="forms" class="prm pll catagory width-100">
+<div id="forms" class="prm pll catagory width-100 width-100-mobile">
   <h3> Form/Modal Components </h3>
-  <form role="form" name="accountForm" autocomplete="off" novalidate="novalidate" data-preflight-tag="AccountForm" class="bc-form width-70">
+  <form role="form" name="accountForm" autocomplete="off" novalidate="novalidate" data-preflight-tag="AccountForm" class="bc-form width-70 width-100-mobile">
     <div class="modal-header">
       <div class="flex-center">
         <h3 class="man mrm"> Lorem Ipsem</h3>
