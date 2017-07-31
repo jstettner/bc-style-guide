@@ -1,27 +1,27 @@
 <?php include '../components/head.php';?>
 <body>
   <div class="bc-pageheader text-center">
-    <a href="/#"><h1 id="style-header" class="display-3"> <span class="bc"> Blockchain </span> Style Guide </h1></a>
+    <a href="./#"><h1 id="style-header" class="display-3"> <span class="bc"> Blockchain </span> Style Guide </h1></a>
   </div>
 
   <div class="container guide-items flex-column">
     <div class="flex-row">
-      <a href="/#buttons"><span class="ti-link"></span></a>
+      <a href="./#buttons"><span class="ti-link"></span></a>
       <?php include 'buttons.php';?>
     </div>
     <hr>
     <div class="flex-row">
-      <a href="/#colors"><span class="ti-link"></span></a>
+      <a href="./#colors"><span class="ti-link"></span></a>
       <?php include 'colors.php';?>
     </div>
     <hr>
     <div class="flex-row">
-      <a href="/#fonts"><span class="ti-link"></span></a>
+      <a href="./#fonts"><span class="ti-link"></span></a>
       <?php include 'fonts.php';?>
     </div>
     <hr>
     <div class="flex-row">
-      <a href="/#forms"><span class="ti-link"></span></a>
+      <a href="./#forms"><span class="ti-link"></span></a>
       <?php include 'forms.php';?>
     </div>
   </div>
