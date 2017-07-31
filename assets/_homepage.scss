@@ -111,16 +111,4 @@ body {
       font-size: 15;
     }
   }
-
-  #forms {
-    form {
-      margin-left: 15%;
-      margin-right: 15%;
-
-      @media (max-width: 991px) {
-        margin-left: 0%;
-        margin-right: 0%;
-      }
-    }
-  }
 }

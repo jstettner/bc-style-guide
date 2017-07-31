@@ -10220,10 +10220,3 @@ body {
   body #fonts .gils {
     font-family: Gillsans;
     font-size: 15; }
-  body #forms form {
-    margin-left: 15%;
-    margin-right: 15%; }
-    @media (max-width: 991px) {
-      body #forms form {
-        margin-left: 0%;
-        margin-right: 0%; } }
