@@ -1,8 +1,8 @@
 .git
 
 # rebuilds, unignored for github pages
-# dist/css
-# dist/fonts
+dist/css
+dist/fonts
 
 node_modules
 
