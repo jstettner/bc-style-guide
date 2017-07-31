@@ -64,11 +64,11 @@
         <div class="flex-column" style="align-items:center;">
           <a class="uib-dropdown-toggle dropdown-toggle ptn" data-toggle="uib-dropdown" role="button" aria-expanded="false" uib-dropdown-toggle="" aria-haspopup="true"><span translate="EXPLORE">Explore</span><i class="ti-angle-down mlm"></i></a>
           <ul class="uib-dropdown-menu dropdown-menu" role="menu" style="position:relative;display:block;max-width:300px;top:0px;">
-            <li><a href="" translate="HOME" target="_blank" rel="noopener noreferrer">Home</a></li>
-            <li><a href="/charts" translate="CHARTS" target="_blank" rel="noopener noreferrer">Charts</a></li>
-            <li><a href="/stats" translate="STATS" target="_blank" rel="noopener noreferrer">Stats</a></li>
-            <li><a href="/markets" translate="MARKETS" target="_blank" rel="noopener noreferrer">Markets</a></li>
-            <li><a href="/api" translate="API" target="_blank" rel="noopener noreferrer">API</a></li>
+            <li><a translate="HOME" target="_blank" rel="noopener noreferrer">Home</a></li>
+            <li><a translate="CHARTS" target="_blank" rel="noopener noreferrer">Charts</a></li>
+            <li><a translate="STATS" target="_blank" rel="noopener noreferrer">Stats</a></li>
+            <li><a translate="MARKETS" target="_blank" rel="noopener noreferrer">Markets</a></li>
+            <li><a translate="API" target="_blank" rel="noopener noreferrer">API</a></li>
           </ul>
         </div>
         <div class="btn-group">
@@ -77,7 +77,7 @@
       </div>
     </div>
     <div class="flex-center flex-between-mobile mbm"><label class="type-h5 em-400 mbn" translate="REMEMBER_2FA">Option</label><span class="label label-success mlm" style="height: 16px;padding-top:4px;">Enabled</span></div>
-    <h5 class="well type-h5 em-400 hidden-xs" translate="SECURITY_BASIC_EXPLAIN">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+    <h5 class="well type-h5 em-400 hidden-xs" translate="SECURITY_BASIC_EXPLAIN">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat.</h5>
     <div class="flex-end flex-center">
       <button type="button" class="button-muted mrm">Cancel</button>
       <button type="button" class="button-primary">Submit</button>
