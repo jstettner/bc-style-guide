@@ -137,6 +137,7 @@
         </label>
       </div>
     </div>
+  </div>
     <div class="code">
       <xmp>
         <div class="col-md setting-result">
