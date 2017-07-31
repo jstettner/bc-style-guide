@@ -10220,6 +10220,17 @@ body {
   body #fonts .gils {
     font-family: Gillsans;
     font-size: 15; }
+  body #forms .code {
+    white-space: nowrap;
+    background: #4B4D4E;
+    padding: 5px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    border-radius: 6px 6px 6px 6px;
+    /* standards-compliant: (IE) */ }
+    body #forms .code xmp {
+      color: #F5F7F9;
+      overflow: scroll;
+      padding-right: 40px; }
   body #forms form {
     margin-left: 15%;
     margin-right: 15%; }

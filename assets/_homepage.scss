@@ -113,6 +113,18 @@ body {
   }
 
   #forms {
+    .code {
+      white-space: nowrap;
+      xmp {
+        color: $grey;
+        overflow: scroll;
+        padding-right: 40px;
+      }
+      background: $black;
+      padding: 5px;
+      -moz-border-radius: 6px 6px 6px 6px;
+      border-radius: 6px 6px 6px 6px; /* standards-compliant: (IE) */
+    }
     form {
       margin-left: 15%;
       margin-right: 15%;

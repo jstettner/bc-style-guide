@@ -55,8 +55,11 @@
     </tbody>
   </table>
   <h4> Icon Packs </h4>
-  <div class="flex flex-row flex-center">
-    <h5> <span class="icon-right_arrow"></span> To see a full list of </h5> <span class="ti-themify-logo f-48 ph-5"></span> <h5> symbols available for use, visit <a href="https://themify.me/themify-icons">https://themify.me/themify-icons</a></h5>
+  <div class="flex flex-row flex-center hidden-xs">
+      <h5> <span class="icon-right_arrow"></span> To see a full list of </h5> <span class="ti-themify-logo f-48 ph-5"></span> <h5> symbols available for use, visit <a href="https://themify.me/themify-icons">https://themify.me/themify-icons</a></h5>
+  </div>
+  <div class="flex flex-row flex-center visible-xs">
+      <h5> <span class="icon-right_arrow"></span> To see a full list of Themify symbols available for use, visit <a href="https://themify.me/themify-icons">https://themify.me/themify-icons</a></h5>
   </div>
   <h5> <span class="icon-right_arrow"></span> Custom Icomoon: </h5>
   <div class="flex-row flex-wrap f-28">
