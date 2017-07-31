@@ -10148,6 +10148,7 @@ img#logo {
         font-size: 63px; } }
 
 body {
+  font-family: 'Montserrat', 'Helvetica', sans-serif !important;
   background-color: #F5F7F9; }
   body .bc-pageheader {
     padding: 2rem 15px;
