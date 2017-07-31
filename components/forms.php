@@ -1,5 +1,5 @@
 <div id="forms" class="prm pll catagory width-100">
-  <h3> Form Components </h3>
+  <h3> Form/Modal Components </h3>
   <form role="form" name="accountForm" autocomplete="off" novalidate="novalidate" data-preflight-tag="AccountForm" class="bc-form">
     <div class="modal-header">
       <div class="flex-center">
