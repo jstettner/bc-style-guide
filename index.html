@@ -20,7 +20,7 @@
     <button type="button" name="button" class="button-transferred type-med mh-10 mv-10"> Transferred </button>
     <button type="button" name="button" class="button-received type-med mh-10 mv-10"> Received </button>
     <button type="button" name="button" class="button-success-alt type-med mh-10 mv-10"> Success-alt </button>
-    <button type="button" name="button" class="button-white-inverse type-med mh-10 mv-10"> White-inverse </button>
+    <button type="button" name="button" class="button-white-inverse type-med mh-10 mv-10" style="box-shadow: 5px 5px 5px #888888;"> White-inverse </button>
     <button type="button" name="button" class="button-primary-inverse type-med mh-10 mv-10"> Primary-inverse </button>
     <button type="button" name="button" class="button-purple type-med mh-10 mv-10"> Purple </button>
     <button type="button" name="button" class="button-info type-med mh-10 mv-10" > Info </button>
@@ -388,14 +388,13 @@
         <div class="flex-column flex-end display-inline-block mbl"><label class="flex-between flex-center">
           <input type="checkbox" class="ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" checked="checked" style="">
           <span class="mlm" translate="EMAIL" uib-tooltip="Verify your email address to enable notifications" tooltip-enable="!user.isEmailVerified" tooltip-placement="left">Email</span>
-        </label>
+        </div>
         <label class="flex-between flex-center">
           <input type="checkbox" class="ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" checked="checked" style="">
           <span class="mlm" translate="SMS" uib-tooltip="Verify your mobile number to enable notifications" tooltip-enable="!user.isMobileVerified" tooltip-placement="left">SMS</span>
         </label>
       </div>
     </div>
-  </div>
     <div class="code">
       <xmp>
         <div class="col-md setting-result">
@@ -498,8 +497,43 @@
         </div>
       </xmp>
     </div>
-  </div>
-</form>
+    <div class="modal-body">
+      <div class="dyk" data-preflight-tag="DidYouKnow">
+        <div class="flex-between flex-center mbl">
+          <h5 class="mvn type-h5 em-400" translate="DYK">Did You Know?</h5>
+          <div class="hashtag em-400 upper flex-center educational" ng-class="dyk.type.toLowerCase()"> Educational</div>
+        </div>
+        <div class="widget">
+          <div class="flex-center mbm">
+            <i class="title border-grey ti-check" ng-class="dyk.icon"></i>
+            <p class="h3 em-300 mll blue educational" ng-class="dyk.type.toLowerCase()">Privacy benefits of HD addresses</p>
+          </div>
+          <p class="alt-font f-16 em-300">
+            If you use the same address each time you receive funds, it becomes easy for anyone to track your entire payment history. So we create a new bitcoin address for every transaction to give you more privacy.<!---->
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="code">
+      <xmp>
+        <div class="dyk" data-preflight-tag="DidYouKnow">
+          <div class="flex-between flex-center mbl">
+            <h5 class="mvn type-h5 em-400">Did You Know?</h5>
+            <div class="hashtag em-400 upper flex-center educational"> Educational</div>
+          </div>
+          <div class="widget">
+            <div class="flex-center mbm">
+              <i class="title border-grey ti-check"></i>
+              <p class="h3 em-300 mll blue educational">Privacy benefits of HD addresses</p>
+            </div>
+            <p class="alt-font f-16 em-300">
+              If you use the same address each time you receive funds, it becomes easy for anyone to track your entire payment history. So we create a new bitcoin address for every transaction to give you more privacy.<!---->
+            </p>
+          </div>
+        </div>
+      </xmp>
+    </div>
+  </form>
 </div>
     </div>
   </div>
