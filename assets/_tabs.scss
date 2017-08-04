@@ -1,0 +1,24 @@
+.filter-bar {
+    padding: 0px 30px;
+    background: #F5F7F9;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    height: auto;
+    z-index: 10;
+}
+
+.filter-buttons a {
+    transition: opacity .3s ease-in-out;
+    opacity: .5;
+    margin-right: 1em;
+}
+
+.filter-buttons a.spaced {
+    margin-right: 2em;
+}
+
+.filter-buttons .active {
+    font-weight: 500;
+    opacity: 1;
+    border-bottom: 1px solid #4B4D4E;
+}
