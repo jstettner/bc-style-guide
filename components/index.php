@@ -10,6 +10,7 @@
   <div class="guide-items flex-column width-100 phn mhn">
     <?php include '../components/elementpanel1.php';?>
     <?php include '../components/elementpanel2.php';?>
+    <?php include '../components/elementpanel3.php';?>
   </div>
   <script src="./js/plugins/jquery-3.2.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
