@@ -1,7 +1,7 @@
 <div class="flex-column">
   <div class="flex-row ph-80 flex-column-mobile">
     <div class="flex-column width-50 width-50-tablet width-100-mobile pr-80 ph-30-tablet pln">
-      <span class="em-500">Tooltips</span>
+      <span class="em-500 f-18">Tooltips</span>
       <hr>
       <div class="flex-row flex-between flex-column-mobile">
         <div class="flex-column flex-center">
@@ -24,7 +24,7 @@
           <span class="width-70 width-70-tablet">Tooltip should always appear above this icon</span>
         </div>
       </div>
-      <span class="pt-30 em-500">Exit Dialogs</span>
+      <span class="pt-30 em-500 f-18">Exit Dialogs</span>
       <hr>
       <div class="modal-dialogue">
         <div class="modal-content">
@@ -42,7 +42,7 @@
       </div>
     </div>
     <div class="flex-column width-50 width-50-tablet width-100-mobile ph-30-tablet pln pv-20-mobile">
-      <span class="em-500">Secondary Navigation</span>
+      <span class="em-500 f-18">Secondary Navigation</span>
       <hr>
       <bc-tabs>
         <div class="filter-bar auto flex-center flex-between flex-start-mobile">
@@ -52,7 +52,7 @@
           </div>
         </div>
       </bc-tabs>
-      <span class="pt-30 em-500">Order Confirmation</span>
+      <span class="pt-30 em-500 f-18">Order Confirmation</span>
       <hr>
       <ul class="f-13 em-300 bg-grey border pv-10 ph-10 mb-20">
         <li class="pb-10 border-bottom-light flex-between">
@@ -72,7 +72,7 @@
           <span class="em-300 right-align ng-binding">0.0006786 BTC ($1.13)</span>
         </li>
       </ul>
-      <span class="pt-30 em-500">What's New Dropdown</span>
+      <span class="pt-30 em-500 f-18">What's New Dropdown</span>
       <hr>
       <div class="popover bottom whats-new-popover">
         <div class="arrow"></div>
@@ -90,7 +90,7 @@
     </div>
   </div>
   <div class="flex-column ph-90">
-    <span class="pt-30 em-500">Order History Tab</span>
+    <span class="pt-30 em-500 f-18">Order History Tab</span>
     <hr>
     <div class="width-100 mb-30" style="max-width:1200px;">
       <div class="shift-history border bg-light-blue">

@@ -1,6 +1,6 @@
 <div class="flex-row ph-80 flex-column-mobile">
   <div class="flex-column width-50 width-50-tablet width-100-mobile pr-80 ph-30-tablet pln">
-    <span class="em-500">Buttons</span>
+    <span class="em-500 f-18">Buttons</span>
     <hr>
     <span class="em-300 pb-15">PRIMARY BUTTON LARGE</span>
     <div class="flex-row flex-between">
@@ -61,7 +61,7 @@
   </div>
 
   <div class="flex-column width-50 width-50-tablet width-100-mobile pr-80 ph-30-tablet pln">
-    <span class="em-500">Forms</span>
+    <span class="em-500 f-18">Forms</span>
     <hr>
     <span class="em-600 pb-5">Label - 5px above field</span>
     <input class="form-control mb-15" style="border-color:#DDD;background-color:white;cursor:text;" value="Input value" readonly="readonly">
