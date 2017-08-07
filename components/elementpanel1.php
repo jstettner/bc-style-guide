@@ -9,7 +9,7 @@
             <div class="arrow"></div>
             <div class="popover-inner">
               <div class="popover-content">
-                <p class="mbn text-center" style="font-size: 12px;">This rate will expire after 10 minutes. If that happens please restart your trade.</p>
+                <p class="mbn text-center f-12">This rate will expire after 10 minutes. If that happens please restart your trade.</p>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@
           <div class="popover-content" style="background-color:white;">
             <li><h4>Send and Receive Ether <small class="border-grey mlm">7/24/17</small></h4>
               <p>
-                <span style="font-size: 12px;">You can now send and receive ether from your Blockchain wallet!</span>
+                <span class="f-12">You can now send and receive ether from your Blockchain wallet!</span>
               </p>
             </li>
           </div>
