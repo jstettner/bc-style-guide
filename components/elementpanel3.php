@@ -1,5 +1,5 @@
-<div class="flex-row ph-80 flex-column-mobile">
-  <div class="flex-column width-50 width-50-tablet width-100-mobile pr-80 ph-30-tablet pln">
+<div class="flex-row pv-30 ph-80 flex-column-mobile">
+  <div class="flex-column width-50 width-50-tablet width-100-mobile pr-80 ph-30-tablet pln no-padding-mobile">
     <span class="em-500 f-18">Typography</span>
     <hr>
     <div class="flex-column">
@@ -95,8 +95,8 @@
   <div class="flex-column width-50 width-50-tablet width-100-mobile ph-30-tablet pln">
     <span class="em-500 f-18">Colors</span>
     <hr>
-    <div class="flex-row">
-      <div class="flex-column width-33 pr-30">
+    <div class="flex-row flex-column-mobile">
+      <div class="flex-column width-33 width-100-mobile pr-30 no-padding-mobile">
         <div class="bg-blue">
           <span class="em-300 f-16 white" style="padding-top:12px;padding-left:12px;display:block;height:100px">Primary</span>
         </div>
@@ -113,7 +113,7 @@
           <span class="em-300 f-16 white" style="padding-top:12px;padding-left:12px;padding-bottom:12px;display:block;">Accent 4</span>
         </div>
       </div>
-      <div class="flex-column width-33 pr-30">
+      <div class="flex-column width-33 width-100-mobile pr-30 no-padding-mobile">
         <div class="bg-primary">
           <span class="em-300 f-16 white" style="padding-top:12px;padding-left:12px;display:block;height:100px">Buttons & Links</span>
         </div>
@@ -121,7 +121,7 @@
           <span class="em-300 f-16 white inactive" style="padding-top:12px;padding-left:12px;padding-bottom:12px;display:block;">Inactive</span>
         </div>
       </div>
-      <div class="flex-column width-33 pr-30">
+      <div class="flex-column width-33 width-100-mobile pr-30 no-padding-mobile">
         <div class="bg-grey">
           <span class="em-300 f-16 black" style="padding-top:12px;padding-left:12px;display:block;height:100px">Background</span>
         </div>
@@ -139,8 +139,8 @@
         </div>
       </div>
     </div>
-    <div class="flex-row pt-60">
-      <div class="flex-column width-33 pr-30">
+    <div class="flex-row pt-60 flex-column-mobile">
+      <div class="flex-column width-33 width-100-mobile pr-30 no-padding-mobile">
         <div class="bg-sent">
           <span class="em-300 f-16 white" style="padding-top:12px;padding-left:12px;padding-bottom:12px;display:block;">Send</span>
         </div>
@@ -148,7 +148,7 @@
           <span class="em-300 f-16 white" style="padding-top:12px;padding-left:12px;padding-bottom:12px;display:block;">Pending</span>
         </div>
       </div>
-      <div class="flex-column width-33 pr-30">
+      <div class="flex-column width-33 width-100-mobile pr-30 no-padding-mobile">
         <div class="bg-received">
           <span class="em-300 f-16 white" style="padding-top:12px;padding-left:12px;padding-bottom:12px;display:block;">Receive</span>
         </div>
@@ -156,7 +156,7 @@
           <span class="em-300 f-16 white" style="padding-top:12px;padding-left:12px;padding-bottom:12px;display:block;">Pending</span>
         </div>
       </div>
-      <div class="flex-column width-33 pr-30">
+      <div class="flex-column width-33 width-100-mobile pr-30 no-padding-mobile">
         <div class="bg-transferred">
           <span class="em-300 f-16 white" style="padding-top:12px;padding-left:12px;padding-bottom:12px;display:block;">Transfer</span>
         </div>
@@ -165,18 +165,18 @@
         </div>
       </div>
     </div>
-    <div class="flex-row pt-60">
-      <div class="flex-column width-33 pr-30">
+    <div class="flex-row pt-60 flex-column-mobile">
+      <div class="flex-column width-33 width-100-mobile pr-30 no-padding-mobile">
         <div class="bg-red">
           <span class="em-300 f-16 white" style="padding-top:12px;padding-left:12px;padding-bottom:12px;display:block;">Error</span>
         </div>
       </div>
-      <div class="flex-column width-33 pr-30">
+      <div class="flex-column width-33 width-100-mobile pr-30 no-padding-mobile">
         <div class="bg-success">
           <span class="em-300 f-16 white" style="padding-top:12px;padding-left:12px;padding-bottom:12px;display:block;">Success</span>
         </div>
       </div>
-      <div class="flex-column width-33 pr-30"></div>
+      <div class="flex-column width-33 width-100-mobile pr-30 no-padding-mobile"></div>
     </div>
   </div>
 </div>
