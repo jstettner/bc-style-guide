@@ -1,4 +1,4 @@
-<div class="flex-row ph-80 flex-column-mobile">
+<div id="panel2" class="flex-row ph-80 flex-column-mobile">
   <div class="flex-column width-50 width-50-tablet width-100-mobile pr-80 ph-30-tablet pln">
     <span class="em-500 f-18">Buttons</span>
     <hr>
@@ -26,19 +26,19 @@
     </div>
     <span class="em-300 pt-30 pb-15">SECONDARY BUTTON</span>
     <div class="flex-row flex-between flex-column-tablet flex-column-mobile">
-      <div class="flex-column">
+      <div class="flex-column pv-15-mobile pv-15-tablet">
         <button type="button" class="button-sent" name="button">0.110253 BTC</button>
         <span class="pt-5">Sent</span>
         <button type="button" class="button-sent mt-20" name="button" disabled="disabled">0.110253 BTC</button>
         <span class="pt-5">Pending Sent</span>
       </div>
-      <div class="flex-column">
+      <div class="flex-column pv-15-mobile pv-15-tablet">
         <button type="button" class="button-received" name="button">0.110253 BTC</button>
         <span class="pt-5">Received</span>
         <button type="button" class="button-received mt-20" name="button" disabled="disabled">0.110253 BTC</button>
         <span class="pt-5">Pending Received</span>
       </div>
-      <div class="flex-column">
+      <div class="flex-column pv-15-mobile pv-15-tablet">
         <button type="button" class="button-transferred" name="button">0.110253 BTC</button>
         <span class="pt-5">Transferred</span>
         <button type="button" class="button-transferred mt-20" name="button" disabled="disabled">0.110253 BTC</button>

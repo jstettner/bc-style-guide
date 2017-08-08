@@ -1,4 +1,11 @@
 .help-block {
-    color: #a94442;
-    margin-top: 5px;
+  color: #a94442;
+  margin-top: 5px;
+}
+
+#panel2 {
+  button {
+    height: auto !important;
+    min-height: 40px !important;
+  }
 }
