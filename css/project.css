@@ -7871,6 +7871,11 @@ form.bc-form .radio-group .radio-label-alt label:before {
   margin-bottom: 100px; }
 
 @media (max-width: 991px) {
+  .ph-0-tablet {
+    padding-left: 0px;
+    padding-right: 0px; } }
+
+@media (max-width: 991px) {
   .ph-5-tablet {
     padding-left: 5px;
     padding-right: 5px; } }
@@ -7919,6 +7924,11 @@ form.bc-form .radio-group .radio-label-alt label:before {
   .ph-50-tablet {
     padding-left: 50px;
     padding-right: 50px; } }
+
+@media (max-width: 991px) {
+  .pv-0-tablet {
+    padding-top: 0px;
+    padding-bottom: 0px; } }
 
 @media (max-width: 991px) {
   .pv-5-tablet {
@@ -7971,6 +7981,11 @@ form.bc-form .radio-group .radio-label-alt label:before {
     padding-bottom: 50px; } }
 
 @media (max-width: 767px) {
+  .ph-0-mobile {
+    padding-left: 0px;
+    padding-right: 0px; } }
+
+@media (max-width: 767px) {
   .ph-5-mobile {
     padding-left: 5px;
     padding-right: 5px; } }
@@ -8019,6 +8034,11 @@ form.bc-form .radio-group .radio-label-alt label:before {
   .ph-50-mobile {
     padding-left: 50px;
     padding-right: 50px; } }
+
+@media (max-width: 767px) {
+  .pv-0-mobile {
+    padding-top: 0px;
+    padding-bottom: 0px; } }
 
 @media (max-width: 767px) {
   .pv-5-mobile {
@@ -10172,6 +10192,10 @@ hr {
 .help-block {
   color: #a94442;
   margin-top: 5px; }
+
+#panel2 button {
+  height: auto !important;
+  min-height: 40px !important; }
 
 .icons > span {
   width: 70px;
